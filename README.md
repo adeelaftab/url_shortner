@@ -53,7 +53,7 @@ A modern URL shortening service built with Express.js, React, and PostgreSQL.
 3. Database setup
 
    - PostgreSQL database is already there
-   - Copy `.env.example` to `.env` and no need to update the database URL
+   - Copy `.env.example` to `.env` and you need to update the database URL i have sent you on linkedin
    - no need to run migrations already done on the hosted platform
    - I have already shared crediential with you on linkedin all you have to do is to connect to DB via pgAdmin
 
