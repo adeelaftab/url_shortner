@@ -58,8 +58,16 @@ A modern URL shortening service built with Express.js, React, and PostgreSQL.
    - I have already shared crediential with you on linkedin all you have to do is to connect to DB via pgAdmin
 
 4. Install frontend dependencies:
+
    ```bash
    cd ../url-shortner-frontend
+   pnpm install
+   ```
+
+5. Install backend dependencies:
+
+   ```bash
+   cd ../url-shortner-backend
    pnpm install
    ```
 
@@ -93,6 +101,12 @@ Create a shortened URL
 ### GET `/:shortCode`
 
 Redirect to the original URL
+
+### GET `/api/stats/:shortCode`
+
+Get statistics for a shortened URL
+
+- Response includes visit count and visit details
 
 ## FrontEnd Logic
 
